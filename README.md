@@ -8,9 +8,9 @@
       C-->D;
 ```
 
-'''mermaid
-flowchart LR
-node(홍길동)
-n2((홍당무))
-node-->n2
-'''
+
+  flowchart LR;
+    node(홍길동);
+    n2((홍당무));
+    node-->n2;
+
