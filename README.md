@@ -17,5 +17,7 @@ node-->n2;
 
 ```mermaid
 classDiagram
-interface MemberService
+class MerberService {<<interface>>}
+class MemberServiceImpl
+class MemberRepository {<<interface>>}
 ```
