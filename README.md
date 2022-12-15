@@ -9,7 +9,7 @@ class MemoryMemberRepository
 class DbMemberRepository
 
 MemberServiceImpl..>MemberRepository
-MerberService <|--MemberServiceImpl
-MemberRepository <|--MemoryMemberRepository
-MemberRepository <|--DbMemberRepository
+MerberService <|..MemberServiceImpl
+MemberRepository <|..MemoryMemberRepository
+MemberRepository <|..DbMemberRepository
 ```
